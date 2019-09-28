@@ -15,16 +15,16 @@ https://www.gelderlander.nl/nijmegen/wonderfoon-laat-dementerende-ouderen-luiste
 There is one iteration called the "Arduinofoon", a much more simplified version of the Wonderfoon, but it still requires the phone to be heavily modified.  
 https://www.repaircafehengelo.nl/arduinofoon/  
 
-Now my version of this musical phone, works with the very small but versatile Arduino Pro Micro, uses a simple $1 MP3 player an optocoupler some resistors and a two small capacitors but most importantly, it DOES NOT require any modification to the phone itself. As all electronics can be placed inside a small box to which the telephone connects through it's existing PTT phone connector.  
+Now my version of this musical phone, works with the very small but versatile Arduino Pro Micro, uses a simple $1 MP3 player an optocoupler some resistors and a two small capacitors but most importantly, it DOES NOT require any modification to the phone itself. As all electronics can be placed inside a small box to which the telephone connects through it's existing PTT phone connector. I did not take the effort of making this design into a PCB that's easy to assemble. Because I needed only one phone, I decided it was quicker to solder all the parts onto a piece of perfboard and stick it in an improvised case. Now for those who do want to go "into production" feel free to make a PCB, feel free to 3D print a nice case or modify an existing wall mounted case to hold it all. The circuit isn't big so that should not be a problem. The volume of the phone is determined by the resistor in series with the MP3 player. It is loud enough though same may say it should be louder. Though I doubt that that would be a good idea. One reason why the resistor values are choosen this way is that the MP3 player slightly interferes with the pulse and hook detection. All signals are on the same wire so they will interefer. With these values it all works fine. But if you want to increase the volume by lowering the value of the resistor in series with the MP3 player, then you might get in trouble with pulse detection. So be aware of this if you start tinkering with values.  
   
-It works very simple:
+The completed project works very simple:
 - Pick up the phone, you hear the "dial tone" MP3
 - Dial a number, you hear the MP3 0..9 playing (depending on the dialed number)
 - When the song is over, you hear the "disconnected" MP3
 - You can dial another number and hear another song or hang up the phone
 - Some phones also have a button on the front. When you press this button, the phone randomly playes one of the songe 0..9 and when that song is over, it automatically plays a new song, randomly. This will allow the person on the phone to continuously listen to the music. This may be of help to those who can't figure out how it works but love to hear the songs over and over again.
 
-And that's it. Now the code holds some routines capable of handling easter eggs, but these are commented out. Mainly because it would be confusing to the elderly people when something unexpected happens and they might be under the impression that something is worng or broken.
+And that's it. Now the code holds some routines capable of handling easter eggs, but these are commented out. Mainly because it would be confusing to the elderly people when something unexpected happens and they might be under the impression that something is wrong or broken.
 
 The "dialtone" is just a simple low frequency "beeeeeep", you might want to replcae this with a file that says something.
 For instance saying "this is the wonderfoon, dial a number to play some music... this is the wonderphone etc."
