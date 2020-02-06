@@ -60,18 +60,17 @@ Files in this folder contains files for producing the service tones
 
 
 # Pro micro driver issues
-For some reason some Pro Micro's require drivers while others are recognized straight out of the box.
-For those who have a Sparkfun Pro Micro and are in need of drivers the following information can be helpfull:
-Installatie instructies:
+For some reason some Pro Micro's require drivers while others are recognized straight out of the box.  
+For those who have a Sparkfun Pro Micro and are in need of drivers the following information can be helpfull:  
 
-Add in the Arduino IDE instellingen the following line to the list of boards manager URL’s:
-https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json
+Add in the Arduino IDE instellingen the following line to the list of boards manager URL’s:  
+https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json  
 
-Then you can select in the boards manager ‘Sparkfun AVR boards’ and install it. Choose 'Sparkfun Pro Micro’ and make sure to select the 5V version.
+Then you can select in the boards manager ‘Sparkfun AVR boards’ and install it. Choose 'Sparkfun Pro Micro’ and make sure to select the 5V version.  
 
-The USB driver consists of a .inf and a .cat file, which can be downloaded from github:
-https://github.com/sparkfun/Arduino_Boards/raw/master/sparkfun/avr/signed_driver/sparkfun.inf
-https://github.com/sparkfun/Arduino_Boards/raw/master/sparkfun/avr/signed_driver/sparkfun.cat
+The USB driver consists of a .inf and a .cat file, which can be downloaded from github:  
+https://github.com/sparkfun/Arduino_Boards/raw/master/sparkfun/avr/signed_driver/sparkfun.inf  
+https://github.com/sparkfun/Arduino_Boards/raw/master/sparkfun/avr/signed_driver/sparkfun.cat  
 
 # Phone issues
 Not all phones are equal, although they can be, some are wired differently.
