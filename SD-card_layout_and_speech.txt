@@ -1,0 +1,116 @@
+text na het draaien van 112 of 911:
+
+
+Deze telefoon kan niet gebruikt worden voor alarm nummers. Gebruik een andere telefoon!
+This telephone can not be used for emergency numbers. please use another phone!
+
+-----------------------------------------------------------
+
+https://ttsmp3.com/text-to-speech/Dutch/
+
+Stem: Nederlands, Ruben
+Stem: Engels, Brian
+
+Voor een betere uitspraak van de woorden telejukebox en easter egg, dient men enegzins phonetische text in te voeren*/
+-----------------------------------------------------------
+
+Hou de knop ingedrukt tijdens het opnemen van de hoorn, de gebruiker hoort nu een tekst in de hoorn:
+Dit is het instellingen menu van de telejukebox, een muzikale telefoon.
+Echter… voor de telefoons zonder drukknop is dit een beetje een probleem. Daarom kan men ook in het menu komen door het draaien van een speciaal nummer een nummer wat men niet snel per ongeluk draait. Een handig nummer hiervoor zou zijn 738 (wat staat voor SET want 7=s, 3=e, 8=t).
+ 
+Folder layout:
+--------------
+01 This folder contains the MP3 files to be played when folder selection is 1
+02 This folder contains the MP3 files to be played when folder selection is 2  
+03 This folder contains the MP3 files to be played when folder selection is 3
+04 This folder contains the MP3 files to be played when folder selection is 4
+05 This folder contains the MP3 files to be played when folder selection is 5
+06 This folder contains the MP3 files to be played when folder selection is 6
+07 This folder contains the MP3 files to be played when folder selection is 7
+08 This folder contains the MP3 files to be played when folder selection is 8
+09 This folder contains the MP3 files to be played when folder selection is 9
+10 This folder contains the MP3 files to be played when folder selection is 10
+90 system audio folder, bevat kiestoon en dergelijke
+99 easter egg audio folder, bevat easter egg gerelateerde songs en info
+ 
+=========================================================================================================
+
+Folder 01 .. 10 contents:
+-------------------------
+When the user dials a number, the a song rnaging from 0 to 9 is played
+The files must have the followingname convention (max number of files is 10)
+	000-<name of song>.mp3		= this is the song that will be played when the user dials a 0
+	001-<name of song>.mp3		= this is the song that will be played when the user dials a 1
+	002-<name of song>.mp3		= this is the song that will be played when the user dials a 2
+	003-<name of song>.mp3		= this is the song that will be played when the user dials a 3
+	004-<name of song>.mp3		= this is the song that will be played when the user dials a 4
+	005-<name of song>.mp3		= this is the song that will be played when the user dials a 5
+	006-<name of song>.mp3		= this is the song that will be played when the user dials a 6
+	007-<name of song>.mp3		= this is the song that will be played when the user dials a 7
+	008-<name of song>.mp3		= this is the song that will be played when the user dials a 8
+	009-<name of song>.mp3		= this is the song that will be played when the user dials a 9
+
+By default the folders are empty and need to be configured by the user.
+However, to indicate that there is a problem, an MP3 file with some spoken text saying that the file is not available and that the SD-card should be configured should be on the card for every possible file in every possible folder.
+ 
+Folder 90 contents:
+-------------------
+ 
+-messages-
+001_dialtone.MP3 			"dialtone file"
+002_disconnected.MP3 			"disconnected file"
+003_number_out_of_service.MP3 	"number has been disconnected or is no longer in service"
+004_emergency number			"deze telefoon kan niet worden gebruikt voor het draaien van alarm nummers"
+005_...               		“Bestand niet gevonden”
+006_...               		“Deze instelling is niet mogelijk”
+007_...               		“uitgeschakeld”
+008_...               		“ingeschakeld”
+009_10sec silence			"                   "(for ten secons)
+ 
+-numbers-
+011_1                 “1”
+012_2                 “2”
+013_3                 “3”
+014_4                 “4”
+015_5                 “5”
+016_6                 “6”
+017_7                 “7”
+018_8                 “8”
+019_9                 “9”
+020_0                 “0”
+ 
+021_10%               “10%”
+022_20%               “20%”
+023_30%               “30%”
+024_40%               “40%”
+025_50%               “50%”
+026_60%               “60%”
+027_70%               “70%”
+028_80%               “80%”
+029_90%               “90%”
+030_100%              “100%”
+ 
+ 
+-menu related-
+100_...               “Deze telefoon is een tele djoek boks. De huidige instellingen zijn:”		
+101_...               “Welkom bij het configuratie menu van de tele djoek boks. U kunt kiezen uit meerdere instellingen. Voor het instellen van het volume, draai een 1. Voor het instellen van de muziekmap, draai een 2. Voor het instellen van de yster ech functie, draai een 3. Maak nu uw keuze, of verbreek de verbinding, om te annuleren.”
+102_...               "Maak nu uw keuze, of verbreek de verbinding, om te annuleren.”
+103_...               “U keuze is”
+104_...               “volume”
+105_...               “muziekmap”
+106_... reserved for future use
+107_... reserved for future use
+108_...               “yster ech functie”
+109_...               “De nieuwe instelling is opgeslagen, u kunt nu de verbinding verbreken.”
+ 
+-menu item 1-
+110_...               “U koos voor 1, het instellen van het volume. U kunt het volume instellen in stappen van 10%. Als u het volume wilt instellen op 50%, draai dan een 5. Als u het volume wilt instellen op 100%, draai dan een 0.”
+111_...               “Het volume, is nu ingesteld op”
+ 
+-menu item 2-
+120_...               “U koos 2, het instellen van de muziek map. U kunt kiezen uit 1 van de 10 mogelijke mappen op de SD-kaart in de tele djoek boks. Om gebruik te maken van muziek map 1, draai een 1. Om gebruik te maken van muziek map 2, draai een 2, enzovoorts. Om gebruik te maken van muziek map 10, draai een 0.”
+121_...               “De muziek map, is nu ingesteld op”
+ 
+-menu item 3-
+130_...               “U koos 3, het instellen van de yster ech functie. Om deze functie in te schakelen, draai een 1. Om deze functie uit te schakelen, draai een 0.”
+131_...               “De yster ech functie is nu”
