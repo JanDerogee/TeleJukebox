@@ -1,22 +1,14 @@
 # TeleJukebox
 A project based on the concepts of the Wonderfoon and Arduinofoon
 
-This project came to my attention through the news item from:  
-https://nos.nl/video/2299835-de-wonderfoon-voor-dementerende-ouderen.html  
-  
-That showed how eldery people loved the sight of an old-skool rotary telephone, playing familiar songs of the past.
-This project seemed to be focussed on people who have Alzheimer. No Because I'm a technician, my wife work works with elderly people, asked me if I could build such a phone. She already did a quick google that brought me to this website:  
-http://www.wonderfoon.nl  
-It showed how you could make such a phone, but although I love the project, it really hurt my technical heart to see how it required these perfectly fine working phones to be dismanteld, ruined, destroyed. This shouldn't be required to make this wonder of 1965 technology (a simple phone) perform this simple new task. Also the complexity of the build (and the work required to assemble it) slightly shocked me. Now couldn't this be more simple, eventually more cheaply, just a simple PCB in an small case where you plug the phone in. A simpler design could result in more of these devices being made and therefore more joy among the eldery could be achieved. Also... many innocent phones could be saved from being permanently being crippled beyond repair.
-  
-  
-The project called "Wonderfoon" was initially created by Leo Willems but gradually this project evolved.
-https://www.gelderlander.nl/nijmegen/wonderfoon-laat-dementerende-ouderen-luisteren-naar-liedjes-van-vroeger~adb0f781/?referrer=https://www.google.com/  
-There is one iteration called the "Arduinofoon", a much more simplified version of the Wonderfoon, but it still requires the phone to be heavily modified.  
-https://www.repaircafehengelo.nl/arduinofoon/  
+The project called "Wonderfoon" was initially created by Leo Willems and many people made their own improvements on that design. Although I wasn't aware of that when I started working on my implementation (which could have saved me a lot of work), but fortunately it resulted in a new project which I call the TeleJukebox.  
 
+It all started when my wife saw a news item https://nos.nl/video/2299835-de-wonderfoon-voor-dementerende-ouderen.html This small item was about a rotary phone project that seemed to be focused on people who have Alzheimer. Now Because I'm a technician who has a wife that works with elderly people, she asked me if I could build such a phone. She also provided me with a link to this website: http://www.wonderfoon.nl  
+That website had instructions about how you could make such a phone. Which sounded great from my wifes perspective, but when I started to read those instructions, I quickly realized that I would not be following them. Basically because although I love the project, it really hurts my technical heart to see that it required these perfectly fine working phones to be dismanteld, ruined, destroyed. It shouldn't be required to make this wonder of 1965 technology (which today we see as just "a simple phone") to be badly damaged only to make it perform the simple task of playing music. And then there was also the complexity (or to be more precise the technical overkill) of the design in combination with the demolition work required to assemble it... I wouldn't say that I was shocked, but it certainly didn't make me happy either.  
+So after a few minutes of processing this information I began to wonder, couldn't this be more simple, more cheaply, just a simple PCB in a small case where you plug the phone in. A simpler design could result in more of these devices being made and therefore more joy among the elderly could be achieved. Also... many innocent phones could be saved from being permanently being crippled beyond repair. Although at that moment I was only interested in making only one (because that's all my wife asked me) but it never hurts to think ahead. Because if I make one, she might ask me someday to make another one...  
+So I made a new design based on parts I had lying around and that are still easily obtainable, build it on a piece of perfboard and named it TeleJukebox. I chose that name to prevent confusion with the existing Wonderfoon. And then I put it all on github (see download link below).  
 Now my version of this musical phone, works with the very small but versatile Arduino Pro Micro, uses a simple $1 MP3 player, optocoupler some capacitors and resistors to tie it all together.  
-The TeleJukebox does not require you phone to be modifed beyond repair. All that is required is the shorting of the microphone wires. Which can be done with a piece of wire in the terminal block on the bottom of the phone OR if you are really lazy, using a piece of aluminum foil in the microphone section of the handpiece.
+The TeleJukebox does not require you phone to be modifed beyond repair. All that is required is the shorting of the microphone wires. Which can be done with a piece of wire in the terminal block on the bottom of the phone OR if you are really lazy, using a piece of aluminum foil in the microphone section of the handpiece.  
   
 The completed project works very simple:
 - Pick up the phone, you hear the "dial tone" MP3,
