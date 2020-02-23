@@ -1,0 +1,5 @@
+By default, the language of the TeleJukebox is Dutch.
+To change the language of the TeleJukebox to English, rename the following files:
+
+rename "90"         to "_90 - NED"
+rename "_90 - ENG   to "90"
