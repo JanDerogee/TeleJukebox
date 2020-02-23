@@ -61,10 +61,15 @@ Folder 90 contents:
 002_disconnected.MP3 			"disconnected file"
 003_number_out_of_service.MP3 	"number has been disconnected or is no longer in service"
 004_emergency number			"deze telefoon kan niet worden gebruikt voor het draaien van alarm nummers"
+						"this telephone can not be used for emegency number. Please use a different telephone"
 005_...               		“Bestand niet gevonden”
+						"File not found"
 006_...               		“Deze instelling is niet mogelijk”
+						"This setting is not allowed"
 007_...               		“uitgeschakeld”
+						"disabled"
 008_...               		“ingeschakeld”
+						"enabled"
 009_10sec silence			"                   "(for ten secons)
  
 -numbers-
@@ -93,24 +98,39 @@ Folder 90 contents:
  
 -menu related-
 100_...               “Deze telefoon is een tele djoek boks. De huidige instellingen zijn:”		
+				 "This telephone is a tele jukebox. The current settings are:"
 101_...               “Welkom bij het configuratie menu van de tele djoek boks. U kunt kiezen uit meerdere instellingen. Voor het instellen van het volume, draai een 1. Voor het instellen van de muziekmap, draai een 2. Voor het instellen van de yster ech functie, draai een 3. Maak nu uw keuze, of verbreek de verbinding, om te annuleren.”
+				 "Welcome to the settings menu of the tele jukebox. U may choose any of the following settings. For setting the volume, dial a 1. For setting the music folder, dial a 2. For setting the easter egg mode, dial a 3. Please select your choice, or break the connection to cancel."
 102_...               "Maak nu uw keuze, of verbreek de verbinding, om te annuleren.”
+				 "Please select your choice, or break the connection to cancel."
 103_...               “U keuze is”
+				 "Your choice is"
 104_...               “volume”
+				 "volume"
 105_...               “muziekmap”
+				 "music folder"
 106_... reserved for future use
 107_... reserved for future use
 108_...               “yster ech functie”
+				 "easteregg mode"
 109_...               “De nieuwe instelling is opgeslagen, u kunt nu de verbinding verbreken.”
+				 "The new setting has been stored. U may now break the connection"
  
 -menu item 1-
 110_...               “U koos voor 1, het instellen van het volume. U kunt het volume instellen in stappen van 10%. Als u het volume wilt instellen op 50%, draai dan een 5. Als u het volume wilt instellen op 100%, draai dan een 0.”
-111_...               “Het volume, is nu ingesteld op”
+				 "You chose, 1. Setting the volume. U may set the volume in steps of 10%. If you want to set the volume to 50%, dial a 5. If you want to set the volume to 100%, dial a 0."
+111_...               “Het volume, is nu ingesteld op:”
+				 "The volume, has been set to:"
  
 -menu item 2-
 120_...               “U koos 2, het instellen van de muziek map. U kunt kiezen uit 1 van de 10 mogelijke mappen op de SD-kaart in de tele djoek boks. Om gebruik te maken van muziek map 1, draai een 1. Om gebruik te maken van muziek map 2, draai een 2, enzovoorts. Om gebruik te maken van muziek map 10, draai een 0.”
-121_...               “De muziek map, is nu ingesteld op”
+				 "You chose, 2. Setting the music folder. U may chose 1 of the 10 possible folders on the SD-card of the tele jukebox. To use the music of folder 1, dial a 1. To use the music of folder 2, dial a 2, etcetera. To use the music of folder 10, dial a 0."
+121_...               “De muziek map, is nu ingesteld op:”
+				 "The music folder, has been set to:"
  
 -menu item 3-
 130_...               “U koos 3, het instellen van de yster ech functie. Om deze functie in te schakelen, draai een 1. Om deze functie uit te schakelen, draai een 0.”
-131_...               “De yster ech functie is nu”
+				 "You chose, 3. Setting the easteregg mode. To enable this mode, dial a 1. To disable this mode, dial a 0."
+
+131_...               “De yster ech functie is nu:”
+				 "The easteregg mode, has been set to:"
