@@ -520,7 +520,7 @@ unsigned char CheckSequence(String str)
   Serial.println(str);
 
   /*special number sequence handling*/
-  if((str == "911") || (str == "112") || (str == "09008844") || (str == "999") || (str == "01189998819991197253"))    /*Check for emergency number, if so, warn user that this phone cannot be used*/
+  if((str == "911") || (str == "112") || (str == "09008844") || (str == "999") || (str == "01189998819991197253") || (str == "0611"))    /*Check for emergency number, if so, warn user that this phone cannot be used*/
   {
     Serial.println("You've dialed an alarm related number");
     myDFPlayer.stop();                    /*song has ended, play the disconnected sound*/
