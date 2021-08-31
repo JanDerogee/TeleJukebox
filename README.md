@@ -29,10 +29,10 @@ If you want to know in detail how the TeleJukebox works (from a userpoint perspe
 For some reason some Pro Micro's require drivers while others are recognized straight out of the box.  
 For those who have a Sparkfun Pro Micro and are in need of drivers the following information can be helpfull:  
 
-Add in the Arduino IDE instellingen the following line to the list of boards manager URL’s:  
+Add in the Arduino IDE instellingen the following line to the list of boards manager URLâ€™s:  
 https://raw.githubusercontent.com/sparkfun/Arduino_Boards/master/IDE_Board_Manager/package_sparkfun_index.json  
 
-Then you can select in the boards manager ‘Sparkfun AVR boards’ and install it. Choose 'Sparkfun Pro Micro’ and make sure to select the 5V version.  
+Then you can select in the boards manager â€˜Sparkfun AVR boardsâ€™ and install it. Choose 'Sparkfun Pro Microâ€™ and make sure to select the 5V version.  
 
 The USB driver consists of a .inf and a .cat file, which can be downloaded from github:  
 https://github.com/sparkfun/Arduino_Boards/raw/master/sparkfun/avr/signed_driver/sparkfun.inf  
@@ -41,3 +41,5 @@ https://github.com/sparkfun/Arduino_Boards/raw/master/sparkfun/avr/signed_driver
 # Phone issues
 Not all phones are equal, but it can be of help to know what phone and wiring scheme inside the phone I used.  
 So I made a photo of my phone and it's wiring, you can find it in the folder named "photo".
+
+For more information regarding this and my other projects: https://janderogee.com
